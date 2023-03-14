@@ -1,5 +1,8 @@
 # 2023-ey-open-science-data-challenge
 This repository contain all works for 2023 EY Open Science Data Challenge
+1. Include a brief description your approach to building the model?
+Answer:
+For the approach of building the model, I always start exploring different models from Logistic Regression, Support Vector Machine, Random Forest, Gradient Boost, Ada Boost, Naive Bayes (Bernoulli), and K-Nearest Neighbor for 1x1 data first, finding the best one. In this case Random Forest is the best one, then we start work our way with bounding box area of 3x3, 5x5, 7x7, and 10x10. Until I found the best bounding box area which is 10x10, I start to use Voting Classifier for enhancing model performance using top 5 models which are **Support Vector Machine, Random Forest, Gradient Boost, Ada Boost, and K-Nearest Neighbor**.
 
 | Date | Activity |
 | --- | --- |
@@ -11,4 +14,12 @@ This repository contain all works for 2023 EY Open Science Data Challenge
 | 10th February 2023 - 11th February 2023 | Experimenting using VH and VV band annual data for 7x7 data from Sentinel 1 RTC|
 | 11th February 2023 - 12th February 2023 | Experimenting using RVI vegetation indices annual data for 3x3 data from Sentinel 1 RTC|
 | 11th February 2023 - 12th February 2023 | Experimenting using NVDI, NDWI, PSRI vegetation indices annual data for 3x3 data from Sentinel 2 L2A|
-| 13th February 2023 | Experimenting using VH and VV band annual data for 5x5 data from Sentinel 1 RTC, using Voting Classifier|
+| 13th February 2023 | Experimenting using VH and VV band annual data for 10x10 data from Sentinel 1 RTC, using Voting Classifier|
+
+
+2. Did you use other data sets than those provided? 
+Answer:
+Yes, I try to experiment using Sentinel 2 L2A data for generating vegetation indices from NDVI, NDWI, and PSRI.
+
+3. If so, are these free/open to the public?
+Yes, the data is open for public by Planetary Computer.
