@@ -10,7 +10,7 @@ For the data, I try to grasp as many bands as I can from multiple satellite prod
 | Date | Activity | Path |
 | --- | --- | --- |
 | 12th February 2023 - 18th February 2023 | Learn about crop phenology from `Learning Hub` | - |
-| 19 February 2023 - 20th February 2023 | Learn about the `Benchmark Notebook` and download Sentinel 1 RTC data| 2023-ey-open-science-data-challenge-1/notebooks/20230219-notebook-benchmark.ipynb |
+| 19 February 2023 - 20th February 2023 | Learn about the `Benchmark Notebook` and download Sentinel 1 RTC data| 2023-ey-open-science-data-challenge-1/notebooks/20230219-notebook-benchmark.ipynb and 2023-ey-open-science-data-challenge-1/notebooks/sentinel-1-rtc/20230302-downloading-vv-vh-bands.ipynb|
 | 21st February 2023 - 22th February 2023 | Experimenting using VH and VV band annual data for 1x1 area from Sentinel 1 RTC| 2023-ey-open-science-data-challenge-1/notebooks/sentinel-1-rtc/vv-vh/20230221-vv-vh-bbox-1x1-1-year.ipynb |
 | 23th February 2023 - 24th February 2023 | Experimenting using VH and VV band annual data for 3x3 area from Sentinel 1 RTC| 2023-ey-open-science-data-challenge-1/notebooks/sentinel-1-rtc/vv-vh/20230223-vv-vh-bbox-3x3-1-year.ipynb |
 | 25th February 2023 - 26th February 2023 | Experimenting using VH and VV band annual data for 5x5 area from Sentinel 1 RTC| 2023-ey-open-science-data-challenge-1/notebooks/sentinel-1-rtc/vv-vh/20230225-vv-vh-bbox-5x5-1-year.ipynb |
